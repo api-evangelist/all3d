@@ -1,0 +1,54 @@
+# ALL3D
+
+> ALL3D is an AI-powered platform for generating product images, lifestyle visuals, videos, and 3D assets for ecommerce brands and agencies. Upload a product photo, describe your scene, and publish studio-quality visuals in minutes — no photography needed.
+
+## What ALL3D Does
+
+ALL3D replaces traditional product photography with an AI workflow. Brands upload a product photo and dimensions, build a scene using inspiration images and props, and generate 4K AI images accurate to real-world space. The platform also supports influencer-style video generation, product configurators, AR, and bulk asset creation.
+
+## Core Capabilities
+
+- **AI Product Images**: Studio shots and lifestyle scenes from a single product photo
+- **AI Video**: Influencer-style and UGC-style video generation for social and ads
+- **3D Precision Editing**: Convert products into editable 3D models for accurate camera angles and scene placement
+- **Product Configurator**: Let customers explore colors, materials, and variations in real time
+- **3D CGI & 360 Spins**: Full asset sets including 360-degree spins and all product variants
+- **AR View in Room**: Customers can place products in their real space using augmented reality
+- **Refine & Scale**: Magic erase, item replacement, scale adjustments, and bulk generation
+- **Shopify & Amazon Integration**: Publish assets directly to your storefront
+
+## Workflow (6 Steps)
+
+1. **Add Product** — Upload a product photo and enter dimensions
+2. **Build a Scene** — Add inspiration images, props, and style guidance
+3. **Generate 4K Visuals** — AI generates photorealistic images accurate to real-world scale
+4. **Refine & Scale** — Edit with built-in tools; scale to hundreds of SKUs
+5. **Review & Collaborate** — Team-based review with approval/rejection workflow
+6. **Publish to Store** — Direct Shopify and Amazon integration, or download
+
+## Who It's For
+
+- Ecommerce brands needing product imagery at scale
+- Marketing and creative agencies producing lifestyle content
+- Furniture, fashion, and consumer goods companies with large catalogs
+- Enterprise teams requiring collaboration, API access, and managed services
+
+## Pricing
+
+Credit-based packages starting at $20/month. Free trial available. Enterprise plans with custom pricing for large-scale needs.
+
+## Company
+
+ALL3D, Inc. is based in San Francisco, CA. Contact: amra@all3d.ai
+
+## Key Pages
+
+- [Home](https://all3d.ai/)
+- [Pricing](https://all3d.ai/pricing)
+- [AI Images Gallery](https://all3d.ai/ai-images)
+- [How ALL3D Works](https://all3d.ai/how-all3d-works)
+- [FAQs](https://all3d.ai/faqs)
+- [About Us](https://all3d.ai/about-us)
+- [Contact](https://all3d.ai/contact-us)
+- [Privacy Policy](https://all3d.ai/privacy)
+- [Terms of Service](https://all3d.ai/terms)
