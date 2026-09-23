@@ -2,29 +2,24 @@ generated: '2026-07-17'
 method: searched
 source: live probes of https://www.all3d.ai/.well-known/*
 host: https://www.all3d.ai
-note: >-
-  Every /.well-known/ path returns the site's SPA index.html (HTTP 200,
-  content-type text/html, identical 2079-byte shell) — a soft 404, not a
-  genuine discovery document. No real well-known documents are published.
+note: Every /.well-known/ path returns the site's SPA index.html (HTTP 200, content-type text/html, identical
+  2079-byte shell) — a soft 404, not a genuine discovery document. No real well-known documents are published.
   No WellKnown/SecurityTxt pointer wired (nothing genuine to point at).
-documents:
-- path: /.well-known/security.txt
-  status: 200
-  genuine: false
-  reason: SPA index.html fallback (text/html), not RFC 9116 security.txt
-- path: /.well-known/openid-configuration
-  status: 200
-  genuine: false
-  reason: SPA index.html fallback (text/html), not OIDC discovery JSON
-- path: /.well-known/oauth-authorization-server
-  status: 200
-  genuine: false
-  reason: SPA index.html fallback (text/html), not RFC 8414 JSON
-- path: /.well-known/api-catalog
-  status: 200
-  genuine: false
-  reason: SPA index.html fallback (text/html), not RFC 9727 api-catalog
-- path: /.well-known/ai-plugin.json
-  status: 200
-  genuine: false
-  reason: SPA index.html fallback (text/html), not an ai-plugin manifest
+hosts:
+- host: https://www.all3d.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+  - path: /.well-known/openid-configuration
+    status: 200
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+  - path: /.well-known/api-catalog
+    status: 200
+  - path: /.well-known/ai-plugin.json
+    status: 200
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
