@@ -1,0 +1,64 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://all3d.ai/pricing
+sources:
+- https://all3d.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Creator
+published: true
+note: Credit-based tiers; each Image Generation costs 5 credits, each Video Generation starts from 45
+  credits. Annual billing offers 'Save 20 %'. API Access on Business and Enterprise.
+plan_count: 5
+currency: USD
+plans:
+- name: Discovery
+  price_text: $0 /month
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 100 one-time trial credits; Up to 20 Images (5 credits ea.); Up to 5 3D Models (20 credits
+    ea.); Up to 2 3D Scenes (50 credits ea.); 3 User Licenses
+- name: Creator
+  price_text: $25 /month
+  price: 25
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 180 Monthly Credits; Up to 36 Images; Up to 4 Videos; Up to 9 3D Models; Up to 3 3D
+    Scenes; 6 User Licenses
+  overage: You may purchase more credits at any time by buying top-up credits or upgrading your subscription.
+- name: Studio
+  price_text: $63 /month
+  price: 63
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 450 Monthly Credits; Up to 90 Images; Up to 10 Videos; Up to 22 3D Models; Up to 9 3D
+    Scenes; Unlimited User Licenses
+- name: Business
+  price_text: $140 /month
+  price: 140
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 1,000 Credits; Up to 200 Images; Up to 22 Videos; Up to 50 3D Models; Up to 20 3D Scenes;
+    Unlimited Users; API Access
+- name: 'Enterprise Solution: High-End 3D & AR'
+  price_text: Contact Sales
+  period: none
+  included_quota: AI Images and Videos; Photorealistic 3D Models; AR scenes; 3D Product Configurator;
+    Dedicated Account Manager; Managed Design Services
+rate_limit_statements:
+- Max Concurrent Image Generations 1 1 3 10 Custom
+- Max Concurrent Video Generations 1 1 2 5 Custom
