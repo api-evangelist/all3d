@@ -74,6 +74,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/all3d-plans-pricing.yml
 - url: https://blog.all3d.ai/feed/
   type: BlogRSS
 - type: Website
