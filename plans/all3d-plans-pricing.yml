@@ -62,3 +62,51 @@ plans:
 rate_limit_statements:
 - Max Concurrent Image Generations 1 1 3 10 Custom
 - Max Concurrent Video Generations 1 1 2 5 Custom
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - metered
+  units:
+  - credit
+  plans:
+  - name: Discovery
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Creator
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Studio
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Business
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: 'Enterprise Solution: High-End 3D & AR'
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
