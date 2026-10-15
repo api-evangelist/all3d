@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/all3d/integrations
 - https://n8n.io/integrations/all3d/
@@ -10,7 +10,26 @@ checked:
 - https://monid.ai/tools/all3d
 - https://n8n.io/integrations/all3d/
 - https://zapier.com/apps/all3d/integrations
+- shopify/integrations/shopify-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/picture-this
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Picture This AI Product Images
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Built for Shopify
 templates: []
