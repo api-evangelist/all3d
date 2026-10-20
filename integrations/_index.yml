@@ -15,3 +15,26 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: all3d-khronos-group-members
+  label: Khronos Group (members)
+  partner_name: Khronos Group (members)
+  category: graphics standards body membership
+  type: register
+  channel: standard-directory
+  evidence: https://www.khronos.org/members/list
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Khronos Group members list (khronos.org/members/list)
+    standard: Khronos Group
+    spec_file: null
+    role: khronos-member
+    registered_name: ALL3D, Inc.
+    register_id: https://www.khronos.org/members/list
+    matched_domain: all3d.ai
+    matched_by: domain
+    signal_note: 'participation only: membership level is partner_tier, never counted'
+    detected_by: sweep-xr-graphics.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
