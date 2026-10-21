@@ -38,3 +38,49 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: all3d-amazon-ads-partner-directory-technology
+  label: Amazon Ads (partner directory, technology)
+  partner: amazon
+  partner_name: Amazon Ads (partner directory, technology)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://advertising.amazon.com/partners/directory
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: ALL3D Inc
+    register_id: amzn1.ads1.ma1.bp0x52dq3poxy8xhigoxwjl81
+    matched_domain: all3d.ai
+    matched_by: domain
+    services:
+    - A_PLUS_CONTENT
+    - CREATIVE_TOOLS
+    - CREATOR_CONTENT
+    - DATA_INTEGRATION
+    - DETAIL_PAGE_SET_UP
+    - PHOTOGRAPHY
+    - PRODUCT_RESEARCH
+    - PROMOTIONS
+    - REPORTING_AND_ANALYTICS
+    - RESALE
+    - RICH_MEDIA
+    - STORE_SETUP_AND_OPTIMIZATION
+    - TRAINING
+    - VIDEO_PRODUCTION
+    ads_products:
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - STORES
+    - VIDEO_ADS
+    service_models:
+    - SELF_SERVICE
+    - SERVICE
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null
